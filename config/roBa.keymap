@@ -86,7 +86,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 BACKSPACE  &mt LEFT_SHIFT SPACE  &kp DELETE      &lt_to_layer_0 1 TAB    &lt_to_layer_0 3 ENTER                             &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         FUNCTION {
