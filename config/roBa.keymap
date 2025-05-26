@@ -80,6 +80,7 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -114,6 +115,8 @@
 &kp QUESTION     &kp GRAVE    &kp TILDE       &kp NON_US_BACKSLASH  &kp PIPE         &kp EQUAL      &trans          &kp SQT           &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN      &kp SLASH
 &trans           &trans       &trans          &trans                &trans           &trans         &trans          &trans                                                                    &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         ARROW {
@@ -123,8 +126,6 @@
 &kp F15        &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT)  &key_repeat      &kp LC(PAGE_DOWN)  &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &kp LA(RIGHT)
 &trans         &trans              &trans            &trans              &trans         &trans           &trans             &trans                                               &kp LA(LEFT_ARROW)
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         MOUSE {
