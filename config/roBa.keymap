@@ -142,10 +142,10 @@
 
         ARROW {
             bindings = <
-&kp LA(F4)  &kp LC(LS(TAB))     &kp LC(TAB)       &kp K_MENU          &kp INSERT                                            &kp DELETE  &kp BACKSPACE   &kp LG(LS(S))  &kp ENTER  &kp LC(W)
-&kp F14     &five_left          &five_up          &five_down          &five_right    &trans              &kp LC(PAGE_UP)    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &kp ESCAPE
-&kp F15     &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT)  &kp CAPSLOCK        &kp LC(PAGE_DOWN)  &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP    &kp END    &kp LA(RIGHT)
-&trans      &trans              &trans            &backSpaceOneWord   &HANAKU_space  &deleteOneWord      &trans             &trans                                                &kp LA(LEFT_ARROW)
+&kp LA(F4)  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LS(LG(S))      &kp INSERT                                          &kp DELETE  &kp BACKSPACE   &HANAKU_space  &kp ENTER  &kp LC(W)
+&kp F14     &five_left       &five_up     &five_down         &five_right  &trans              &kp LC(PAGE_UP)    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &kp ESCAPE
+&kp F15     &trans           &trans       &trans             &trans       &kp CAPSLOCK        &kp LC(PAGE_DOWN)  &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP    &kp END    &kp LA(RIGHT)
+&trans      &trans           &trans       &backSpaceOneWord  &trans       &deleteOneWord      &trans             &trans                                                &kp LA(LEFT_ARROW)
             >;
         };
 
