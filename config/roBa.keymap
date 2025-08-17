@@ -63,6 +63,20 @@
             bindings = <&kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW>;
             label = "FIVE_LEFT";
         };
+
+        backSpaceOneWord: backSpaceOneWord {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(LEFT_ARROW)) &kp BACKSPACE>;
+            label = "BACKSPACEONEWORD";
+        };
+
+        deleteOneWord: deleteOneWord {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(RIGHT_ARROW)) &kp DELETE>;
+            label = "DELETEONEWORD";
+        };
     };
 
     behaviors {
