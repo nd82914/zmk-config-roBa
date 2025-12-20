@@ -147,6 +147,8 @@
 &kp F15     &trans           &trans       &trans             &trans       &kp CAPSLOCK        &kp LC(PAGE_DOWN)  &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP    &kp END    &kp LA(RIGHT)
 &trans      &trans           &trans       &backSpaceOneWord  &trans       &deleteOneWord      &trans             &trans                                                &kp LA(LEFT_ARROW)
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         MOUSE {
