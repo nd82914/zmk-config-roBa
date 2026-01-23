@@ -29,7 +29,7 @@
 
         MCK {
             bindings = <&mkp MCLK>;
-            key-positions = <42 21>;
+            key-positions = <21 33>;
         };
     };
 
