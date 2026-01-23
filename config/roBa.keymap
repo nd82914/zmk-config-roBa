@@ -150,7 +150,7 @@
 &kp LA(F4)          &kp LC(LS(TAB))  &kp LC(TAB)  &kp LS(LG(R))      &kp LS(LG(S))                                         &kp DELETE  &kp BACKSPACE   &HANAKU_space  &kp ENTER  &kp LC(W)
 &kp CAPSLOCK        &five_left       &five_up     &five_down         &five_right    &trans              &kp LC(PAGE_UP)    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &kp ESCAPE
 &kp LC(LS(ESCAPE))  &trans           &trans       &trans             &kp INSERT     &trans              &kp LC(PAGE_DOWN)  &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP    &kp END    &kp LA(RIGHT)
-&trans              &trans           &trans       &backSpaceOneWord  &trans         &deleteOneWord      &trans             &trans                                                &kp LA(LEFT_ARROW)
+&trans              &trans           &trans       &backSpaceOneWord  &HANAKU_space  &deleteOneWord      &trans             &trans                                                &kp LA(LEFT_ARROW)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
